@@ -1,0 +1,39 @@
+html {
+    font-size: 10px;
+}
+
+/* .tab__material {
+    background: #1B1C34;
+} */
+.tab{
+    padding: 1.3rem;
+}
+
+.tab__icon {
+    position: absolute;
+}
+
+.tab__info {
+    position: relative;
+    left: 1rem;
+    top: -2px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.7rem;
+    color: #8F91B2;
+    margin: 0 0 0 1.3rem;
+}
+
+.tab--active {
+    color: white;
+}
+
+.tab__icon--active {
+    /* border: 0.2px solid #1B1C34; */
+    fill: blue;
+}
+
+.tab__info--active {
+    color: white;
+}
